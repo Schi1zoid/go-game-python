@@ -1,0 +1,6 @@
+from go_game import Board
+
+def test_board_init():
+    b = Board(size=9)
+    assert len(b.board) == 9
+    assert len(b.board[0]) == 9
